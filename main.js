@@ -58,29 +58,3 @@ app.on('ready', main)
 app.on('window-all-closed', function () {
     app.quit()
 })
-/*
-function createWindow() {
-    const win = new BrowserWindow({
-        width: 800,
-        height: 600,
-        webPreferences: {
-            nodeIntegration: true
-        }
-    })
-
-    win.loadFile('index.html')
-} //postcondition: create new browser window from index.html
-
-app.whenReady().then(createWindow) //invoke create window after app initialized
-
-app.on('window-all-closed', () => {
-    if (process.platform !== 'darwin') {
-        app.quit()
-    }
-}) //no-op on MACos, closes app when no active windows on other
-
-app.on('activate', () => {
-    if (BrowserWindow.getAllWindows().length === 0) {
-        createWindow()
-    }
-}) //create new window if app started but no active windows*/
