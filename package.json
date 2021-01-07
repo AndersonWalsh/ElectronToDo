@@ -20,6 +20,7 @@
         "electron": "^11.1.1"
     },
     "dependencies": {
-        "electron-store": "^6.0.1"
+        "electron-store": "^6.0.1",
+        "spectre.css": "^0.5.9"
     }
 }
