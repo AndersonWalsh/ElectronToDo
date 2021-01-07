@@ -1,6 +1,4 @@
-body {
-    font: caption;
-  }
+
   
   .todo-item {
     background: none;
@@ -16,4 +14,43 @@ body {
   
   .todo-item:hover {
     background: #d8d8d8
+  }
+
+
+.homepage{
+  width: 100%;
+  height: 100%;
+
+
+  background: url(background1.jpeg) no-repeat center center fixed;
+  background-size: cover;
+
+}
+
+.addpage{
+  width: 100%;
+  height: 100%;
+
+
+  background: url(background2.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+body, html {
+
+  font-family: 'Montserrat', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn{
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+h1 {
+    font-size: 2rem;
+    color: #e2dbdb;
   }
