@@ -6,6 +6,7 @@ The project features a Bootstrap UI and the electron-store API, in addition to t
 
 This is a work in progress with additional functionality planned. Implementation of item storage through MongoDB is the next task.
 
+
 Screenshots:
 
 <img width="492" alt="Screen Shot 2021-01-07 at 4 05 43 AM" src="https://user-images.githubusercontent.com/65378696/103875136-0d1e2180-50a0-11eb-8d17-d7cc88ce7a7b.png">
